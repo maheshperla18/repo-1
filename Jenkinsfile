@@ -11,7 +11,7 @@ echo"this is test case"
 stage('package'){
 echo"this is package"
 }
-stage('deploy')
+stage('deploy'){
 echo"deploy to tomcat"
 }
 }
